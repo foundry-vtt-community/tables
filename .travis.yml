@@ -1,0 +1,17 @@
+script:
+- |
+  git config user.name "Wiki Sync"
+  git config user.email "fvtt-travisci@mail.com"
+  cd ..
+  git clone https://github.com/foundry-vtt-community/wiki.wiki.git
+  cd rollable_tables
+  mv .admin/header.md .&& mv .admin/update_tables.sh .
+  chmod a+x update_tables.sh
+  ./update_tables.sh && git add README.md
+  if [[ "$(git diff --cached)" != "" ]] ; then
+      git commit -m "Update README.md Rollable Table listing (Automatic)"
+  fi
+  git push https://$GITHUB_API_KEY@github.com/foundry-vtt-community/rollable_tables.git HEAD:master
+env:
+  matrix:
+    secure: V6RhejfhOSmkSPLCDewCmXOf2L25Q2MutnyK+pZf6o9x5A+Ji6OPI3XNLvpPuRtP3WNYDzwpq0unhDnJO/vWPXlCoIcKT3FLJrBhu5lctsxTzCj2zoVH4nQgmiGUmuPBjoRy6Fl160igYKyKZ7gQGrLAw8l3LUzUN1lsB6z7w4BDSKTdZUckqo/Ks7o+I814Owl4WOQL5xbTrL8GTiotlGvhM1xY+B0aeoYwkRUf9/Fpf0Ftr5aO4wXjs0MD8ckBs36CPt8JxopaQ3izCdW+p2zVJWQwNf+bsVUsMmHckdDx4E4p0TyMTdo1DMvqFdjrEVxv4AlzXEg09PP1PnHaSKwHm3/VhpXI+nBzLUQtcxFWsFgKD3SjuXr5ckjojlD2ihInH1Iwd2KFEftDfI72nErtCLpSLmbIs9c9ve19UXw5PPCYE6L27ERc0CZC3MutEE1OSisd+j219tFxojNSrP3sLOFQkHPjxv+XWrK5sRUHPLaAyzbfiXhm6WktKowfnKwMvK6moYx1It2HIvA/KLz/+NEzAwuAm0Io7dMVMI92znzCTbGgQPIP+wwZXzk14U80r0kn+wOUZS41DFOrK2yDpNZJa/tqJh15l/qBUkmXxYP+36A9vsDiPp5cyi5Br16VisshzQyd/S+pYTZViLy7gJ0mKaGeabEyLo207XA=
