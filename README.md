@@ -1,6 +1,6 @@
 # Foundry VTT Rollable Tables Repository
 
-[![Build Status](https://travis-ci.org/foundry-vtt-community/rollable_tables.svg?branch=master)](https://travis-ci.org/foundry-vtt-community/rollable_tables)
+![CI for Rollable Tables Repo](https://github.com/foundry-vtt-community/rollable_tables/workflows/CI%20for%20Rollable%20Tables%20Repo/badge.svg)
 
 Foundry tables allow people to expand upon the default Foundry offerings are noted here.
 
