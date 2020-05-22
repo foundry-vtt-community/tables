@@ -1,5 +1,26 @@
 # Foundry VTT Rollable Tables Repository
 
+### To use these tables:
+1. download the json file to your machine.
+2. Create a new rollable table in foundry
+3. Right click the table in the sidebar and click import.
+4. Import your .json file and celebrate.
+
+### Why are there no tables from DnDBeyond?
+Most of those tables are property of Wizards of the Coast, however there is a wonderful script that you can use to create your own .json rollable table file to import into foundry. See: [useful_scripts/DnDBeyond_extractor.js](useful_scripts/DnDBeyond_extractor.js)
+
+### Macros
+You may want to utilize macros with these rollable tables. Checkout [the foundry community macro repo](https://github.com/foundry-vtt-community/macros)
+
+### Contributing
+1. Navigate to the directory where you wish to add your file.
+2. Click on add file at the top.
+3. Name your file with a .json ending and paste your content and save. (add details in the description field of your json file)
+4. Save the file and then open a pull request (github should walk you through these steps.)
+
+If you have *multiple files that should be grouped together* and may use a macro, please create a new directory that houses everything and add a README.md file to the directory
+
+## Cloning this Repo
 ![CI for Rollable Tables Repo](https://github.com/foundry-vtt-community/rollable_tables/workflows/CI%20for%20Rollable%20Tables%20Repo/badge.svg)
 
 Foundry tables allow people to expand upon the default Foundry offerings are noted here.
@@ -18,11 +39,3 @@ cd rollable_tables
 git submodule init
 git submodule update name-of-the-table
 ```
-
-
-## [Potion Strength](Foundry%20VTT%20Rollable%20Tables%20for%20DnD%205E/Potion%20Strength.md)
-Based on u/olirant's [tables for generating potions randomly](https://www.reddit.com/r/DnDBehindTheScreen/comments/4btnkc/random_potions_table/).
-
-## [Vicious Mockeries](Foundry%20VTT%20Rollable%20Tables%20for%20DnD%205E/Vicious%20Mockeries.md)
-100 vicious mockeries from [reddit](https://www.reddit.com/r/dndnext/comments/3k7qpl/100_bard_insults_for_vicious_mockery/). Can be saved to json file and imported.
-
