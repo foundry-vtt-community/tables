@@ -23,3 +23,6 @@ git submodule update name-of-the-table
 ## [Potion Strength](Foundry%20VTT%20Rollable%20Tables%20for%20DnD%205E/Potion%20Strength.md)
 Based on u/olirant's [tables for generating potions randomly](https://www.reddit.com/r/DnDBehindTheScreen/comments/4btnkc/random_potions_table/).
 
+## [Vicious Mockeries](Foundry%20VTT%20Rollable%20Tables%20for%20DnD%205E/Vicious%20Mockeries.md)
+100 vicious mockeries from [reddit](https://www.reddit.com/r/dndnext/comments/3k7qpl/100_bard_insults_for_vicious_mockery/). Can be saved to json file and imported.
+
