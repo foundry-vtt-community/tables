@@ -1,4 +1,4 @@
-# Foundry VTT Rollable Tables Repository
+# Foundry VTT Tables Repository
 
 ### To use these tables:
 1. Download the `.json` file to your machine
@@ -25,14 +25,14 @@ If you have *multiple files that should be grouped together* and may use a macro
 To clone this repository, along with every table in it, use the following command:
 
 ```
-git clone --recurse-submodules https://github.com/foundry-vtt-community/rollable_tables.git
+git clone --recurse-submodules https://github.com/foundry-vtt-community/tables.git
 ```
 
 Instead, if you'd like to clone this repository and only fetch a specific table from it, use the following commands:
 
 ```
-git clone https://github.com/foundry-vtt-community/rollable_tables.git
-cd rollable_tables
+git clone https://github.com/foundry-vtt-community/tables.git
+cd tables
 git submodule init
 git submodule update name-of-the-table
 ```
