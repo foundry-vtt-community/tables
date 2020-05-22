@@ -9,6 +9,9 @@
 ### Why are there no tables from DnDBeyond?
 Most of those tables are property of Wizards of the Coast, however there is a wonderful script that you can use to create your own .json rollable table file to import into foundry. See: [useful_scripts/DnDBeyond_extractor.js](useful_scripts/DnDBeyond_extractor.js)
 
+### Macros
+You may want to utilize macros with these rollable tables. Checkout [the foundry community macro repo](https://github.com/foundry-vtt-community/macros)
+
 ## Cloning this Repo
 ![CI for Rollable Tables Repo](https://github.com/foundry-vtt-community/rollable_tables/workflows/CI%20for%20Rollable%20Tables%20Repo/badge.svg)
 
