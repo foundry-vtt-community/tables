@@ -1,0 +1,537 @@
+{
+  "_id": "t9ncQLOuiHUXUtHP",
+  "name": "Inspirations",
+  "sort": 200000,
+  "flags": {
+    "exportSource": {
+      "world": "eberron",
+      "system": "dnd5e",
+      "coreVersion": "0.5.7",
+      "systemVersion": 0.9
+    }
+  },
+  "description": "Courtesy of @Zarek",
+  "results": [
+    {
+      "_id": "0FwpEuR2whJadv2R",
+      "flags": {},
+      "type": 0,
+      "text": "A bold warrior may be lucky, but no warrior can be lucky unless he is bold.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "8GxiqMZnWrPSSU8h",
+      "flags": {},
+      "type": 0,
+      "text": "Winners know when to quit. WHEN THEY WIN",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "56qJTAWKMX8HsOds",
+      "flags": {},
+      "type": 0,
+      "text": "Cry 'Havoc' and let slip the dogs of War.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "9PfORNhDo23SJAfQ",
+      "flags": {},
+      "type": 0,
+      "text": "Where the battle rages, there the measure of the man is proved! ",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "jVtS3XeHAJQjFz7s",
+      "flags": {},
+      "type": 0,
+      "text": "Remember the last guy who quit? EXACTLY. YOU DON'T.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "hiHkpekpBUQNKFZk",
+      "flags": {},
+      "type": 0,
+      "text": "When there is no peril in the fight there is no glory in the triumph.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "sCWxGAVaJwDXrBIz",
+      "flags": {},
+      "type": 0,
+      "text": "Victory is always possible for the person who refuses to stop fighting.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "0QjwfeuwCdZ6eIWw",
+      "flags": {},
+      "type": 0,
+      "text": "Nobody makes you bleed your own blood... NOBODY!",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "gk2BmWuxJTuF2sIY",
+      "flags": {},
+      "type": 0,
+      "text": "When cities burn and armies turn and flee in disarray, cowards will cry: 'Tis best to fly, and fight another day'. But warriors know in their marrow, When they die and fall, 'tis best to have fought and lost than not to have fought at all.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": true
+    },
+    {
+      "_id": "GNEsSenATuizjeY8",
+      "flags": {},
+      "type": 0,
+      "text": "If a man hasn't discovered something that he will die for, he isn't fit to live.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "pcSEIqLbFPXIESoR",
+      "flags": {},
+      "type": 0,
+      "text": "Rules are for children. This is war, and in war the only crime is to lose.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "URn5rlt7uAqKmqND",
+      "flags": {},
+      "type": 0,
+      "text": "Look my friends! Look to the fear in their eyes, as they question why the sun itself would gaze upon them with unwavering fury. They know not that they face their destroyers, that we stand before them, that they might know true obliteration.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "A8fBUX50QROtRC0x",
+      "flags": {},
+      "type": 0,
+      "text": "Every man dies. Not every man really lives.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": true
+    },
+    {
+      "_id": "LQ9RxoHmg5TXgPd1",
+      "flags": {},
+      "type": 0,
+      "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "UpboJTe7gsrKniyi",
+      "flags": {},
+      "type": 0,
+      "text": "One day, your life will flash before your eyes. Make sure it's worth watching.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": true
+    },
+    {
+      "_id": "cEvshxveJQKmqhr4",
+      "flags": {},
+      "type": 0,
+      "text": "Even the darkest night turns to dawn eventually... Our sun will rise again.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "TRf9jYDF8gC9GTPu",
+      "flags": {},
+      "type": 0,
+      "text": "What's done is done. You can't change the past. But it doesn't mean that the future is decided! What you do right now... That's what will determine the future!",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "pkZPb4nV0po164IG",
+      "flags": {},
+      "type": 0,
+      "text": "Think if you want to stay alive. Fear will kill you if you don't control it.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "lnBAqTfUuvOq5QEw",
+      "flags": {},
+      "type": 0,
+      "text": "One day, your grandchildren shall tell the tale of this moment.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "kVeN3uvZdMZ9jQFE",
+      "flags": {},
+      "type": 0,
+      "text": "We are relying on you. You must believe you can do this.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "QUah1tvaSMyzrr1y",
+      "flags": {},
+      "type": 0,
+      "text": "I believe in you, not because you are infallible, but because you never give up.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "270kLAmgozuO236Q",
+      "flags": {},
+      "type": 0,
+      "text": "Everyone else is watching you, doubting you. That is why they will not succeed, and you will.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "SknLEoQ05HkW4twD",
+      "flags": {},
+      "type": 0,
+      "text": "Strike them down. We may not be in the right, but I don’t care. In battle, it doesn’t matter who’s right, it matters who’s left.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "XiwdNXOBwgaUBWPf",
+      "flags": {},
+      "type": 0,
+      "text": "This might end in disaster. But it also might end in us becoming the most famous bastards in the world.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "beGwQzvLA05MG0h0",
+      "flags": {},
+      "type": 0,
+      "text": "Worry not, when I tell the tale of this moment one day, I’ll leave out how you would have failed spectacularly without my help.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "xGja9BQe5DttdqLw",
+      "flags": {},
+      "type": 0,
+      "text": "They say it’s better to light a candle than curse the darkness. I say it’s better to light your foe on fire and let him do the cursing.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": true
+    },
+    {
+      "_id": "pLWGkXWRyV21wd6C",
+      "flags": {},
+      "type": 0,
+      "text": "You might fail, die even. But at least it won’t be boring.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "U8JKHM9JJBpnzPCc",
+      "flags": {},
+      "type": 0,
+      "text": "Well, my time of not taking you seriously is coming to a middle.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "FBjxT4P4EH253dfr",
+      "flags": {},
+      "type": 0,
+      "text": "Someone ever tries to kill you, you try to kill 'em right back!",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "lSpGfEtPYsow6Kio",
+      "flags": {},
+      "type": 0,
+      "text": "If we loose this fight, they'll rape us to death, eat our flesh, and sew our skin into their clothes ... and if we're very, very lucky, they'll do it in that order.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "DiKm5DzribmJERd8",
+      "flags": {},
+      "type": 0,
+      "text": "Don't worry I've been under fire before. Well ... I've been in a fire. Actually, I was fired. I can handle myself.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "ZBUY9ArG9Om4YbP7",
+      "flags": {},
+      "type": 0,
+      "text": "Do, or do not. There is no “try”",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "4qbsBYSJ5PIxKsGv",
+      "flags": {},
+      "type": 0,
+      "text": "Nobody is gonna hit as hard as life, but it ain’t how hard you can hit. It’s how hard you can get hit and keep moving forward. It’s how much you can take, and keep moving forward. That’s how winning is done.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "FjPhGqjOl7WA785h",
+      "flags": {},
+      "type": 0,
+      "text": "When a defining moment comes along, you can do one of two things. Define the moment, or let the moment define you.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "Zx5tA4aSJ4cFkNeM",
+      "flags": {},
+      "type": 0,
+      "text": "Violence may not be the answer, but its gotten us this far.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": true
+    },
+    {
+      "_id": "MCTnluYgHVZ1eBeg",
+      "flags": {},
+      "type": 0,
+      "text": "The gods give the hardest battles to the strongest warriors.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "FbToM1EqeKgsCAAX",
+      "flags": {},
+      "type": 0,
+      "text": "You've taken shits more fearsome than this lot!",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "drawn": true
+    }
+  ],
+  "formula": "1d37",
+  "replacement": false,
+  "displayRoll": false
+}

@@ -1,0 +1,1 @@
+List of files that can be used alone or in conjunction with a macro. These files are not necessarily dependent on a specific system or a group of other rollable tables.
