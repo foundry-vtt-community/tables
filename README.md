@@ -27,12 +27,3 @@ To clone this repository, along with every table in it, use the following comman
 ```
 git clone --recurse-submodules https://github.com/foundry-vtt-community/tables.git
 ```
-
-Instead, if you'd like to clone this repository and only fetch a specific table from it, use the following commands:
-
-```
-git clone https://github.com/foundry-vtt-community/tables.git
-cd tables
-git submodule init
-git submodule update name-of-the-table
-```
