@@ -1,10 +1,24 @@
 # Foundry VTT Tables Repository
 
-### To use these tables:
+Foundry community-contributed tables are noted here and merged into the Foundry Community Tables module for ease of use.
+
+## Installation
+
+### Module
+
+You can now install this module automatically by specifying the following public module URL : 
+
+`https://raw.githubusercontent.com/foundry-vtt-community/tables/master/module.json`
+
+As GM go to the Manage Modules options menu in your World Settings tab then enable the Foundry Community Tables module.
+
+### To use these tables stand alone:
 1. Download the `.json` file to your machine
 2. Create a new rollable table in foundry
 3. Right click the table in the sidebar and click import
 4. Import your `.json` file and celebrate
+
+## FAQ
 
 ### Why are there no tables from DnDBeyond?
 Most of those tables are property of Wizards of the Coast, however there is a wonderful script that you can use to create your own .json rollable table file to import into foundry. See: [useful_scripts/DnDBeyond_extractor.js](useful_scripts/DnDBeyond_extractor.js)
@@ -12,7 +26,7 @@ Most of those tables are property of Wizards of the Coast, however there is a wo
 ### Macros
 You may want to utilize macros with these rollable tables. Checkout [the foundry community macro repo](https://github.com/foundry-vtt-community/macros)
 
-### Development/Contributing
+## Development/Contributing
 To clone this repository, along with every table in it, use the following command:
 
 ```
