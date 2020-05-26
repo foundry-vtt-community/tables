@@ -12,6 +12,12 @@ You can now install this module automatically by specifying the following public
 
 As GM go to the Manage Modules options menu in your World Settings tab then enable the Foundry Community Tables module.
 
+### How To Use
+
+This module adds all of the community tabless as a Compendium Packs called **FVTT Community Tables**.
+
+You can open these packs, right click and click on import the tables you want.
+
 ### To use these tables stand alone:
 1. Download the `.json` file to your machine
 2. Create a new rollable table in foundry
@@ -33,7 +39,7 @@ To clone this repository, along with every table in it, use the following comman
 git clone --recurse-submodules https://github.com/foundry-vtt-community/tables.git
 ```
 
-You can make pull requests to add or update macros here: https://github.com/foundry-vtt-community/tables/pulls
+You can make pull requests to add or update tables here: [https://github.com/foundry-vtt-community/tables/pulls](https://github.com/foundry-vtt-community/tables/pulls)
 
 1. Navigate to the directory where you wish to add your file
 2. Click on add file at the top
