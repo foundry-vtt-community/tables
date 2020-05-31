@@ -52,15 +52,19 @@ let jsonData = {
 };
 
 for (let row of rows) {
-  let range
+  let range;
+  let weight;
   let cells = row.getElementsByTagName('TD');
   
   let getNum = cells[0].innerText;
+  
   if (getNum.includes('-')) {
     range = getNum.split('-');
+    weight = parseInt(range[1]), 10) - parseInt(range[0]), 10) + 1;
   } else {
     if (Number.isNaN(getNum)) continue;
     range = [getNum, getNum];
+    weight = 1;
   }
 
   let text = cells[1].innerHTML;
@@ -84,7 +88,7 @@ for (let row of rows) {
     type: 0,
     text,
     img:  "icons/svg/d20-black.svg",
-    weight: 1,
+    weight,
     range,
     drawn: false
   });
