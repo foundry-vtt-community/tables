@@ -71,7 +71,7 @@ let jsonData = {
 let rows = exportedTable.getElementsByTagName("tbody")[0].rows;
 for (let i = 0; i < rows.length; i++) {
    let firstCol = rows[i].cells[0].textContent; //first column
-   let range = firstCol.split("–").map(val => parseInt(val, 10)); //range of roll results. first column
+   let range = firstCol.split("–").map(val => val == '00' ? 100 : val).map(val => parseInt(val, 10)); //range of roll results. first column
    let weight;
    if (range.length === 1) {
     range[1] = range[0] // range must have a start and end, even if they are the same.
