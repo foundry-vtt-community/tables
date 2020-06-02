@@ -12,7 +12,7 @@
  * 5. Import the downloaded file & celebrate.
  */
 
- let tableId = "table016"; // replace with the table id or data-content-chunk-id
+ let tableId = "34014cfb-839f-4718-a955-a7415c55ab0b"; // replace with the table id or data-content-chunk-id
 
 //////////////////////////////////////////////////
 // You should not need to modify anything below //
@@ -71,8 +71,14 @@ let jsonData = {
 let rows = exportedTable.getElementsByTagName("tbody")[0].rows;
 for (let i = 0; i < rows.length; i++) {
    let firstCol = rows[i].cells[0].textContent; //first column
-   let range = firstCol.split("–").map(val => parseInt(val, 10)); //range of roll results. first column
-   if (range.length === 1) range[1] = range[0] // range must have a start and end, even if they are the same.
+   let range = firstCol.split("–").map(val => val == '00' ? 100 : val).map(val => parseInt(val, 10)); //range of roll results. first column
+   let weight;
+   if (range.length === 1) {
+    range[1] = range[0] // range must have a start and end, even if they are the same.
+    weight = 1
+   } else {
+    weight = range[1] - range[0] + 1
+   }
    let text = rows[i].cells[1].textContent // second column
      .replace(/\n/g, '') // remove \n
      .replace(/\dd\d+/ig, match => `[[${match}]]`); // convert dice rolls.
@@ -81,7 +87,7 @@ for (let i = 0; i < rows.length; i++) {
       type: 0,
       text,
       img: "icons/svg/d20-black.svg",
-      weight: 1,
+      weight,
       range,
       drawn: false
    });
