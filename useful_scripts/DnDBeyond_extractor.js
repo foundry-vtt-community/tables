@@ -69,6 +69,7 @@ let jsonData = {
   displayRolle: true
 };
 let rows = exportedTable.getElementsByTagName("tbody")[0].rows;
+let headings = exportedTable.getElementsByTagName("thead")[0].rows[0].cells;
 for (let i = 0; i < rows.length; i++) {
    let firstCol = rows[i].cells[0].textContent; //first column
    let range = firstCol.split("–").map(val => val == '00' ? 100 : val).map(val => parseInt(val, 10)); //range of roll results. first column
@@ -85,6 +86,7 @@ for (let i = 0; i < rows.length; i++) {
          .replace(/\n/g, '') // remove \n
          .replace(/\dd\d+/ig, match => `[[${match}]]`); // convert dice rolls.
        if (row_text !== '—'){ // cell has a dash when blank - skip
+           row_text += ' ' + headings[j].textContent + ' ' // add heading
              if (text){
                  text += ' and ' // add on if additional cell
              }
