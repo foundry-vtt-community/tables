@@ -12,7 +12,7 @@
  * 5. Import the downloaded file & celebrate.
  */
 
- let tableId = "34014cfb-839f-4718-a955-a7415c55ab0b"; // replace with the table id or data-content-chunk-id
+ let tableId = "e63f3dd5-6219-4218-891e-2b57741308b6"; // replace with the table id or data-content-chunk-id
 
 //////////////////////////////////////////////////
 // You should not need to modify anything below //
@@ -79,9 +79,18 @@ for (let i = 0; i < rows.length; i++) {
    } else {
     weight = range[1] - range[0] + 1
    }
-   let text = rows[i].cells[1].textContent // second column
-     .replace(/\n/g, '') // remove \n
-     .replace(/\dd\d+/ig, match => `[[${match}]]`); // convert dice rolls.
+   let text = ''
+   for (let j = 1; j < rows[i].cells.length; j++){
+       let row_text = rows[i].cells[j].textContent // second column
+         .replace(/\n/g, '') // remove \n
+         .replace(/\dd\d+/ig, match => `[[${match}]]`); // convert dice rolls.
+       if (row_text != '—'){
+             if (text){
+                 text += ' and ' // add on if additional cell
+             };
+             text += row_text // update text for row
+         };
+   };
    jsonData.results.push({
       flags: {},
       type: 0,
