@@ -80,17 +80,17 @@ for (let i = 0; i < rows.length; i++) {
     weight = range[1] - range[0] + 1
    }
    let text = ''
-   for (let j = 1; j < rows[i].cells.length; j++){
-       let row_text = rows[i].cells[j].textContent // second column
+   for (let j = 1; j < rows[i].cells.length; j++){ // cycle through each cell after the 1st
+       let row_text = rows[i].cells[j].textContent
          .replace(/\n/g, '') // remove \n
          .replace(/\dd\d+/ig, match => `[[${match}]]`); // convert dice rolls.
-       if (row_text != '—'){
+       if (row_text !== '—'){ // cell has a dash when blank - skip
              if (text){
                  text += ' and ' // add on if additional cell
-             };
+             }
              text += row_text // update text for row
-         };
-   };
+         }
+   }
    jsonData.results.push({
       flags: {},
       type: 0,
