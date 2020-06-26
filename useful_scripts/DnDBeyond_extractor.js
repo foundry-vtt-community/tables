@@ -12,7 +12,7 @@
  * 5. Import the downloaded file & celebrate.
  */
 
- let tableId = "e63f3dd5-6219-4218-891e-2b57741308b6"; // replace with the table id or data-content-chunk-id
+ let tableId = "579e6e59-34d9-42e9-a61e-e4fb5167290c"; // replace with the table id or data-content-chunk-id
 
 //////////////////////////////////////////////////
 // You should not need to modify anything below //
@@ -86,7 +86,7 @@ for (let i = 0; i < rows.length; i++) {
          .replace(/\n/g, '') // remove \n
          .replace(/\dd\d+/ig, match => `[[${match}]]`); // convert dice rolls.
        if (row_text !== '—'){ // cell has a dash when blank - skip
-           row_text += ' ' + headings[j].textContent + ' ' // add heading
+           row_text += ' (' + headings[j].textContent + ') ' // add heading
              if (text){
                  text += ' and ' // add on if additional cell
              }
