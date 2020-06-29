@@ -12,7 +12,7 @@
  * 5. Import the downloaded file & celebrate.
  */
 
- let tableId = "34014cfb-839f-4718-a955-a7415c55ab0b"; // replace with the table id or data-content-chunk-id
+ let tableId = "579e6e59-34d9-42e9-a61e-e4fb5167290c"; // replace with the table id or data-content-chunk-id
 
 //////////////////////////////////////////////////
 // You should not need to modify anything below //
@@ -69,6 +69,7 @@ let jsonData = {
   displayRolle: true
 };
 let rows = exportedTable.getElementsByTagName("tbody")[0].rows;
+let headings = exportedTable.getElementsByTagName("thead")[0].rows[0].cells;
 for (let i = 0; i < rows.length; i++) {
    let firstCol = rows[i].cells[0].textContent; //first column
    let range = firstCol.split("–").map(val => val == '00' ? 100 : val).map(val => parseInt(val, 10)); //range of roll results. first column
@@ -79,9 +80,19 @@ for (let i = 0; i < rows.length; i++) {
    } else {
     weight = range[1] - range[0] + 1
    }
-   let text = rows[i].cells[1].textContent // second column
-     .replace(/\n/g, '') // remove \n
-     .replace(/\dd\d+/ig, match => `[[${match}]]`); // convert dice rolls.
+   let text = ''
+   for (let j = 1; j < rows[i].cells.length; j++){ // cycle through each cell after the 1st
+       let row_text = rows[i].cells[j].textContent
+         .replace(/\n/g, '') // remove \n
+         .replace(/\dd\d+/ig, match => `[[${match}]]`); // convert dice rolls.
+       if (row_text !== '—'){ // cell has a dash when blank - skip
+           row_text += ' (' + headings[j].textContent + ') ' // add heading
+             if (text){
+                 text += ' and ' // add on if additional cell
+             }
+             text += row_text // update text for row
+         }
+   }
    jsonData.results.push({
       flags: {},
       type: 0,
