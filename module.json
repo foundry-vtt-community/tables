@@ -22,7 +22,7 @@
     ],
     "url": "https://github.com/foundry-vtt-community/tables",
     "manifest": "https://raw.githubusercontent.com/foundry-vtt-community/tables/master/module.json",
-    "download": "https://github.com/foundry-vtt-community/tables/archive/v0.6.zip",
+    "download": "https://github.com/foundry-vtt-community/tables/archive/v0.7.zip",
     "socket": true,
     "minimumCoreVersion": "0.6.2",
     "compatibleCoreVersion": "0.6.5"
