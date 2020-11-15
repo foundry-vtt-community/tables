@@ -2,7 +2,7 @@
     "name": "foundry_community_tables",
     "title": "Foundry Community Tables",
     "description": "<p>This is a collection of Tables added by the FoundryVTT Community!<br><br>You can add your own tables by making a pull request here: https://github.com/foundry-vtt-community/tables</p>",
-    "version": "0.9",
+    "version": "0.10",
     "author": "CyberPathogen",
     "packs": [
         {
@@ -22,8 +22,8 @@
     ],
     "url": "https://github.com/foundry-vtt-community/tables",
     "manifest": "https://raw.githubusercontent.com/foundry-vtt-community/tables/master/module.json",
-    "download": "https://github.com/foundry-vtt-community/tables/archive/v0.9.zip",
+    "download": "https://github.com/foundry-vtt-community/tables/archive/v0.10.zip",
     "socket": true,
     "minimumCoreVersion": "0.6.6",
-    "compatibleCoreVersion": "0.7.6"
+    "compatibleCoreVersion": "0.7.7"
 }
