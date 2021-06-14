@@ -8,7 +8,7 @@ Foundry community-contributed tables are noted here and merged into the Foundry 
 
 You can now install this module automatically by specifying the following public module URL : 
 
-`https://raw.githubusercontent.com/foundry-vtt-community/tables/master/module.json`
+`https://raw.githubusercontent.com/foundry-vtt-community/tables/main/module.json`
 
 As GM go to the **Manage Modules** options menu in your **World Settings** tab then enable the **Foundry Community Tables** module.
 
