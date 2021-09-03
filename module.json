@@ -2,7 +2,7 @@
     "name": "foundry_community_tables",
     "title": "Foundry Community Tables",
     "description": "<p>This is a collection of Tables added by the FoundryVTT Community!<br><br>You can add your own tables by making a pull request here: https://github.com/foundry-vtt-community/tables</p>",
-    "version": "0.16.0",
+    "version": "0.17.0",
     "author": "FoundryVTTCommunity",
     "packs": [
         {
@@ -22,8 +22,8 @@
     ],
     "url": "https://github.com/foundry-vtt-community/tables",
     "manifest": "https://raw.githubusercontent.com/foundry-vtt-community/tables/main/module.json",
-    "download": "https://github.com/foundry-vtt-community/tables/archive/v0.16.0.zip",
+    "download": "https://github.com/foundry-vtt-community/tables/archive/v0.17.0.zip",
     "socket": true,
     "minimumCoreVersion": "0.7.10",
-    "compatibleCoreVersion": "0.8.8"
+    "compatibleCoreVersion": "0.8.9"
 }
