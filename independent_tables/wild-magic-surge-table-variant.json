@@ -1,0 +1,50 @@
+{
+  "name": "Wild Magic Surge Variant",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Cast a spell and roll the dice! (https://www.dandwiki.com/wiki/Wild_Magic_Surge_Table,_Variant_(5e_Variant_Rule))",
+  "results": [
+    {
+      "_id": "QpA4E523oO2fhCw6",
+      "type": 1,
+      "text": "Wild Magic Surge Variant Results",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "EfHQ4l3tbgZumtCw",
+      "rangeL": 1,
+      "rangeH": 1
+    },
+    {
+      "_id": "oNBb0OVVABkD4RPo",
+      "type": 0,
+      "text": "Nothing happens.",
+      "weight": 1,
+      "range": [
+        2,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "rangeL": 2,
+      "rangeH": 20
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "exportSource": {
+      "world": "swordcoast-adventures",
+      "system": "dnd5e",
+      "coreVersion": "9.245",
+      "systemVersion": "1.5.7"
+    }
+  }
+}
