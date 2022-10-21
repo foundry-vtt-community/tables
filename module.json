@@ -3,21 +3,25 @@
     "title": "Foundry Community Tables",
     "description": "<p>This is a collection of Tables added by the FoundryVTT Community!<br><br>You can add your own tables by making a pull request here: https://github.com/foundry-vtt-community/tables</p>",
     "version": "10.1",
-    "author": "FoundryVTTCommunity",
+    "authors": [
+        {
+            "name": "FoundryVTTCommunity"
+        }
+    ],
     "packs": [
         {
             "name": "community-tables-5e",
             "label": "FVTT Community Tables - 5E",
             "path": "packs/table-5e.db",
             "module": "foundry_community_tables",
-            "entity": "RollTable"
+            "type": "RollTable"
         },
         {
             "name": "community-tables-independent",
             "label": "FVTT Community Tables - Independent",
             "path": "packs/table-independent.db",
             "module": "foundry_community_tables",
-            "entity": "RollTable"
+            "type": "RollTable"
         }
     ],
     "url": "https://github.com/foundry-vtt-community/tables",
